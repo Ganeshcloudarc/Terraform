@@ -3,5 +3,4 @@ pipeline{
   environment {
   PATH = "{$path}:${getTerraformPath()}"
 }
-
 }
