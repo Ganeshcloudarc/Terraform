@@ -2,9 +2,9 @@ pipeline {
   agent any
   
   tools {
-    terraform 'teraform'
+    terraform 'terraform'
   }
-  
+
 stages{
   stage('terraform init'){
     steps{
