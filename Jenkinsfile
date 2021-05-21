@@ -4,8 +4,7 @@ pipeline {
   tools {
     terraform 'teraform'
   }
-
-}
+  
 stages{
   stage('terraform init'){
     steps{
