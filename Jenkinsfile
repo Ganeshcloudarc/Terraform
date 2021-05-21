@@ -14,8 +14,8 @@ stages{
   }
   stage('jenkins build alerts'){
    steps{
-  slackSend(channel: '#jenkins-deployments', color: '#009933', message: 'job1 build sucessful', teamDomain: 'jenkin',
-  tokenCredentialId: 'slack-jenkins1')
+  slackSend(channel: '#jenkins-deployments', color: '#009933', message: 'job1 build sucessful', teamDomain: 'jenkins-slack',
+  tokenCredentialId: 'Slack-password')
   }
   }
   }
